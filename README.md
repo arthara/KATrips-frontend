@@ -1,4 +1,4 @@
-# KATrips-FrontEnd
+# KATrips-frontend
 FrontEnd dari KATrips
 
 
