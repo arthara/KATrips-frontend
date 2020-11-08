@@ -30,6 +30,6 @@ export const APP_ROUTE = [
         path: "/",
         exact: true,
         component: HistoryPemesanan,
-        restricted: true,
+        private: true,
     },
 ];
