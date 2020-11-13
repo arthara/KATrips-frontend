@@ -1,0 +1,177 @@
+body {
+    height: 100%;
+   
+  }
+
+  .bg {
+    background-image: url("../assets/landing.png");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+  }
+
+  img.logo{
+      height:34px;
+      margin-top: 7px;
+      margin-left: 30px;
+  }
+
+  img.logo1{
+      height: 72px;
+      margin-left:90px; 
+      margin-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+
+  }
+
+  li {
+    float: right;
+
+  }
+
+  li a {
+    font:  normal normal normal 18px/22px Montserrat;
+    display: block;
+    color: #000000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:transparent;
+  }
+
+  h1{
+      margin-top:160px;
+      margin-left:150px;
+      margin-bottom: 0px;
+      text-align: left;
+      font: normal normal bold 60px/73px Montserrat;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+  }
+
+  h2{
+      margin-top: 0px;
+      margin-left:150px;
+      text-align: left;
+      font: normal normal normal 30px/37px Montserrat;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 0.75;
+  }
+
+  h3{
+      font: normal normal bold 25px/30px Montserrat;
+      opacity: 1;
+      letter-spacing: 0px;
+      color: #4D4D4D;
+      opacity: 1;
+      margin-bottom: 0px;
+  }
+
+  p{
+      font: normal normal normal 17px/24px Montserrat;
+      letter-spacing: 0px;
+      color: #4D4D4D;
+      opacity: 0.75;
+  }
+
+  p.paragaf1{
+      margin-top:3px;
+      margin-bottom: 0px;
+
+  }
+
+  p.paragaf2{
+      margin-top:10px;
+      margin-bottom:0px;		
+      
+  }
+
+  p.paragaf3{
+      margin-top:2px; 
+      color: #E87300;
+  }
+
+  .button1 {
+    margin-left: 10px;
+    background-color: #E87300;
+    border-radius:5em/5em;
+    border:none;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 235px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font: normal normal bold  Montserrat;
+    cursor: pointer;
+  }
+
+  .button2{
+    margin-left: 10px;
+    background-color: #FFFFFF;
+    border-radius:5em/5em;
+    border-color:blue;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 235px; 
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font: normal normal bold  Montserrat;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+
+  .kotakTengah{
+      background-color:#F1F1F1;
+      height: 279px; 
+      border-radius:30px;
+      margin-left:75px;
+      margin-right:75px;
+      margin-top: 160px;
+      padding-left:30px;
+      padding-right:30px;  
+      padding-bottom:20px;
+      padding-top:20px;  
+  }
+
+  .bagianKiri{
+      width:60%;
+      float: left;
+      align-content: center;
+      padding-left: 20px;
+      padding-top: 40px;
+  }
+
+  .bagianKanan{
+      padding-right:20px;
+      padding-top: 5px; 
+      height:70%;  
+  }
+

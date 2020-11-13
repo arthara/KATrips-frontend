@@ -1,0 +1,130 @@
+body {   
+   height: 100%;
+}
+
+.bg{
+    background-image: url("../assets/landing.png");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin:0;
+}
+
+
+
+  .jumbotron{
+      background-color: inherit;
+      color: white;
+      margin-top: 10%;
+
+  }
+
+  img.center{
+      margin-top: 7px;
+      margin-left: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+
+  }
+
+  li {
+    float: right;
+
+  }
+
+  li a {
+    font:  normal normal normal 18px/22px Montserrat;
+    display: block;
+    color: #000000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:transparent;
+  }
+
+  h1{
+      margin-top:160px;
+      margin-left:150px;
+      margin-bottom: 0px;
+      text-align: left;
+      font: normal normal bold 60px/73px Montserrat;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+  }
+
+  h2{
+      margin-top: 0px;
+      margin-left:150px;
+      text-align: left;
+      font: normal normal normal 30px/37px Montserrat;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 0.75;
+  }
+
+  .buttonDownload {
+    margin-left: 20px;
+    background-color: #E87300;
+    border-radius:5em/5em;
+    border:none;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 236px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font: normal normal bold  Montserrat;
+    cursor: pointer;
+  }
+
+  .buttonStart{
+    margin-left: 99px;
+    background-color: #FFFFFF;
+    border-radius:5em/5em;
+    border:none;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 236px; 
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font: normal normal bold  Montserrat;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+
+  
+  .tengah{
+    height: 279px; 
+    border-radius:30px;
+    margin-left:75px;
+    margin-right:75px;
+    margin-top: 160px;
+    padding-left:30px;
+    padding-right:30px;  
+    padding-bottom:20px;
+    padding-top:20px;  
+  }
