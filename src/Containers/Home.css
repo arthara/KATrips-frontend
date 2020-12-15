@@ -20,16 +20,16 @@ body {
 
   }
 
-  img.center2{
-      margin-top: 7px;
+  img.centerHome{
+      margin-top: 2px;
       margin-left: 30px;
   }
 
   ul {
     list-style-type: none;
     margin-top: 0;
-    margin-left: 0 ;
-    padding: 0;
+    margin-left: 0;
+    padding-right:20px;
     overflow: hidden;
     background-color: #FFFFFF;
     background-repeat: no-repeat;
@@ -39,7 +39,6 @@ body {
 
   li {
     float: right;
-
   }
 
   li a {
