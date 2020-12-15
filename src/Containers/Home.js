@@ -8,13 +8,13 @@ export default class Home extends Component{
         return(
             <div className="bg">
                     <ul>
-                    <img src={logo} class="center" alt="Logo" style={
+                    <img src={logo} class="center2" alt="Logo" style={
                         {
                             height: "34px"
                         }
                        
-                        }/>;
-                        <li><a href="#home">Sign in</a></li>
+                        }/>
+                        <li><Link to ='/Login'>Sign in</Link></li>
                         <li><Link to ='/About'>About</Link></li>
                         <li><Link to ='/Home'>Home</Link></li>
                     </ul>
@@ -22,7 +22,6 @@ export default class Home extends Component{
                <div className="tengah"> 
                     <h1>Looking For<br/>A Train Trip Ticket?</h1>
                     <h2>KATrips can be help you! </h2>
-                    
                     <button class="buttonStart">GET STARTED</button>
                     <button class="buttonDownload">DOWNLOAD NOW</button>
                 </div>

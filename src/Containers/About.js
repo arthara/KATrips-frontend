@@ -10,7 +10,7 @@ export default class About extends Component{
         <div class="bg">
 		<ul>
             <img src={logo} class="logo" alt="Logo"/>;    
-			<li><a href="#home">Sign in</a></li>
+			<li><Link to ='/Login'>Sign in</Link></li>
 			<li><Link to ='/About'>About</Link></li>
 			<li><Link to ='/Home'>Home</Link></li>
 		</ul>
