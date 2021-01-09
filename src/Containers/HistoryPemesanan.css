@@ -1,0 +1,174 @@
+.bodyHistory{
+    height: 100%;
+    width: auto;
+    margin: 0;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E4E4E4 100%, #777777 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  }
+  
+  .bgHistory{
+      background-image:  url('../assets/history-order-after-crop.png');
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+
+  img.logo{
+      height:34px;
+      margin-top: 7px;
+      margin-left: 30px;
+  }
+
+  img.gambar{
+      margin-top: 2px;
+      margin-left: 40px; 
+      height: 50px;
+  }
+
+  img.more{
+      padding-top: 5px; 
+      height:70%;
+      float: right;  
+  }
+
+  
+  ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+
+  }
+
+  li {
+    float: right;
+
+  }
+
+  li a {
+    font:  normal normal normal 18px/22px Montserrat;
+    display: block;
+    color: #000000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:transparent;
+  }
+
+  .historyPemesanan{
+      margin-top:160px;
+      margin-left:56px;
+      margin-bottom: 0px;
+      text-align: left;
+      font: normal normal normal 40px/30px Montserrat;
+      letter-spacing: 0px;
+      color: black;
+      opacity: 1;
+  }
+
+  h2.HistoryPemesanan{
+      margin-top: 0px;
+      margin-left:150px;
+      text-align: left;
+      font: normal normal normal 30px/37px Montserrat;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 0.75;
+  }
+
+  .button1_historyPemesanan{
+    margin-left:-55%;
+    margin-top:20px;
+    background-color: #E87300;
+    border-radius:5em/5em;
+    border:none;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 136px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font: normal normal bold  Montserrat;
+    cursor: pointer;
+  }
+
+  
+  .kotakTengahUpcoming{
+      background-color:#FFFFFF;
+      height: 131px; 
+      border-radius:10px;
+      margin-left:56px;
+      margin-right:56px;
+      margin-top: 10px;
+      margin-bottom: 0;
+      padding-left:30px;
+      padding-right:30px;  
+      padding-bottom:20px;
+      padding-top:20px;  
+  }
+
+  .kotakTengahUpcomingMore{
+      background-color:#FFFFFF;
+      height: 40px; 
+      border-radius:10px;
+      margin-left:56px;
+      margin-right:56px;
+      margin-top: 20px;
+      margin-bottom: 0;
+      padding-left:30px;
+      padding-right:30px;  
+      padding-top:10px;  
+
+  }
+
+  .bagianKiri{
+      width:60%;
+      float: left;
+      align-content: center;
+      padding-left: 20px;
+      padding-top: 40px;
+  }
+
+  .bagianKanan{
+      padding-right:70px;
+      padding-top: 5px; 
+      height:70%;  
+  }
+
+  
+
+  p.kiri{
+      text-align: left;
+      font: normal normal normal 18px/22px Montserrat;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+      margin-top: -40px;
+  }
+
+  p.kanan
+  {
+      text-align: left;
+      font: normal normal normal 30px/35px Montserrat;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+      margin-left:732px;
+      margin-top: 5px;
+  }
+
+

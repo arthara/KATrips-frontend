@@ -8,7 +8,7 @@ export default class Home extends Component{
         return(
             <div className="bg">
                     <ul>
-                    <img src={logo} class="center2" alt="Logo" style={
+                    <img src={logo} className="centerHome" alt="Logo" style={
                         {
                             height: "34px"
                         }

@@ -5,9 +5,14 @@
     box-sizing: border-box;
 }
 
+.formLogin{
+    margin-top:100px;
+    margin-left:800px;
+}
 
 
 .bgLogin{
+    height: 100%;
     color: #ffffff;
     background-image: url('../assets/login-register.png')  !important;
     background-position: left;
@@ -23,12 +28,13 @@ label,span {
     font-family: montserrat;
 }
 
-img.center{
+img.centerLogin{
     display: block;
     margin: 0 auto;
+    float : right;
 }
 
- html,.App, #root, .auth-wrapper {
+html,.App, #root, .auth-wrapper {
     width: 111%;
     height: 100%;
 }
@@ -82,4 +88,8 @@ img.center{
 
 .forgot-password a {
     color: #167bff;
+}
+
+.form-group{
+    margin-top:30px;
 }

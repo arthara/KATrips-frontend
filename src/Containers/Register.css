@@ -5,7 +5,11 @@
     box-sizing: border-box;
 }
 
-body {
+.formRegister{
+    margin-left:800px;
+}
+.bgRegister{
+    height: 100%;
     color: #ffffff;
     background-image: url('../assets/login-register.png')  !important;
     background-position: left;
@@ -21,7 +25,7 @@ label,span {
     font-family: montserrat;
 }
 
-img.center {
+img.center2{
     display: block;
     margin: 0 auto;
 }
