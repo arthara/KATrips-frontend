@@ -16,7 +16,7 @@ export default class Home extends Component{
                         }/>
                         <li><Link to ='/Login'>Sign in</Link></li>
                         <li><Link to ='/About'>About</Link></li>
-                        <li><Link to ='/Home'>Home</Link></li>
+                        <li><Link to ='/'>Home</Link></li>
                     </ul>
 
                <div className="tengah"> 

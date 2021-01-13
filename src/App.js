@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-          <Route exact path='/Home'component={Home}/>
+          <Route exact path='/'component={Home}/>
           <Route exact path='/About'component={About}/>
           <Route exact path='/Login'component={Login}/>
           <Route exact path='/Register'component={RegisterForm}/>
