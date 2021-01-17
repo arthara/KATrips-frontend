@@ -3,6 +3,7 @@ import './login.css';
 import logo from '../assets/logo-fix.png';
 import axios from 'axios';
 import {Link, useHistory} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Login(){
 
@@ -28,8 +29,7 @@ function Login(){
             console.log(res)
         })
         
-        .catch(error=>{console.log(error)})
-        ;
+        .catch(error=>{console.log(error)});
     }
         
     return (

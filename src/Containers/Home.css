@@ -4,11 +4,11 @@ body {
 
 .bg{
     background-image: url("../assets/landing.png");
-    height: 1000px;
+    height:100%;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
-    margin:0;
+    margin:auto;
 }
 
 
@@ -22,14 +22,14 @@ body {
 
   img.centerHome{
       margin-top: 2px;
-      margin-left: 30px;
+      margin-left: 50px;
   }
 
   ul {
     list-style-type: none;
     margin-top: 0;
-    margin-left: 0;
-    padding-right:20px;
+    margin-left: 20px;
+    padding:0;
     overflow: hidden;
     background-color: #FFFFFF;
     background-repeat: no-repeat;
@@ -39,6 +39,9 @@ body {
 
   li {
     float: right;
+    margin-right:auto;
+   
+    
   }
 
   li a {
@@ -71,23 +74,23 @@ body {
       margin-top: 0px;
       margin-left:150px;
       text-align: left;
-      font: normal normal normal 30px/37px Montserrat;
+      font: normal normal bold 30px/37px Montserrat;
       letter-spacing: 0px;
       color: #FFFFFF;
       opacity: 0.75;
   }
 
   .buttonDownload {
-    margin-left: 20px;
-    background-color: #E87300;
+    margin-left: 30px;
+    background-color: #FFFFFF;
     border-radius:5em/5em;
     border:none;
     background-repeat: no-repeat;
     height: 60px;
-    width: 236px; 
+    width: 336px; 
     color: white;
-    padding: 15px 32px;
-    text-align: center;
+    padding: 15px 22px;
+    text-align:left;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
@@ -97,13 +100,13 @@ body {
 
   .buttonStart{
     margin-left: 99px;
-    background-color: #FFFFFF;
+    background-color: #2bfa02;
     border-radius:5em/5em;
     border:none;
     background-repeat: no-repeat;
     height: 60px;
-    width: 236px; 
-    color: blue;
+    width: 336px; 
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -114,8 +117,6 @@ body {
     cursor: pointer;
 
   }
-
-  
   .tengah{
     height: 279px; 
     border-radius:30px;

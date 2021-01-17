@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    margin-top: 0;
+    padding:0;
+    overflow: hidden;
+    background-color:white;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+  }
+
+  .bg2{
+    background-image: url("../assets/landing.png");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin:auto;  
+  }
+
+  .kotakDT{
+    background-color:#F1F1F1;
+    height:auto; 
+    border-radius:30px;
+    margin-left:275px;
+    margin-right:275px;
+    margin-top: 160px;
+    padding-left:30px;
+    padding-right:40px;  
+    padding-bottom:20px;
+    padding-top:20px;  
+}
+
+p.about{
+  font-size:20px;
+  text-align:center;
+}
+
+

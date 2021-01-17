@@ -5,11 +5,12 @@ body {
 
   .bg {
     background-image: url("../assets/landing.png");
-    height: 1000px;
+    height:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:0;
+    margin:auto;
+
   }
 
   img.logo{
@@ -22,13 +23,14 @@ body {
       height: 72px;
       margin-left:90px; 
       margin-bottom: 20px;
+      position: static;
   }
 
   ul {
     list-style-type: none;
     margin-top: 0;
     margin-left: 0 ;
-    padding: 0;
+    padding-right:20px;
     overflow: hidden;
     background-color: #FFFFFF;
     background-repeat: no-repeat;
@@ -38,7 +40,7 @@ body {
 
   li {
     float: right;
-
+    margin-right:auto;
   }
 
   li a {
@@ -106,7 +108,7 @@ body {
   }
 
   p.paragaf3{
-      margin-top:2px; 
+      margin-top:2px;
       color: #E87300;
   }
 
@@ -150,28 +152,24 @@ body {
 
   .kotakTengah{
       background-color:#F1F1F1;
-      height: 279px; 
+      height:auto; 
       border-radius:30px;
       margin-left:75px;
       margin-right:75px;
       margin-top: 160px;
       padding-left:30px;
-      padding-right:30px;  
+      padding-right:40px;  
       padding-bottom:20px;
       padding-top:20px;  
   }
 
-  .bagianKiri{
-      width:60%;
-      float: left;
-      align-content: center;
-      padding-left: 20px;
-      padding-top: 40px;
-  }
+  
 
   .bagianKanan{
       padding-right:20px;
       padding-top: 5px; 
       height:70%;  
   }
+
+  
 
