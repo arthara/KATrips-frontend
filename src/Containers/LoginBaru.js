@@ -6,7 +6,6 @@ import {Link, useHistory} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Login(){
-
     const[email,setEmail]= React.useState();
     const[password,setPassword ]= React.useState();
     const history = useHistory();
@@ -26,9 +25,9 @@ function Login(){
         .then
         (res=>{
             history.push("/HistoryPemesanan")
+            localStorage.setItem('token', res.data.access_token);
             console.log(res)
         })
-        
         .catch(error=>{console.log(error)});
     }
         
