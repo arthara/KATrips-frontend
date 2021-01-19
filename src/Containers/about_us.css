@@ -10,7 +10,7 @@ ul{
 
   .bg2{
     background-image: url("../assets/landing.png");
-    height:100%;
+    height:auto;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -24,10 +24,21 @@ ul{
     margin-left:275px;
     margin-right:275px;
     margin-top: 160px;
-    padding-left:30px;
-    padding-right:40px;  
+    padding-left:50px;
     padding-bottom:20px;
     padding-top:20px;  
+}
+
+.kotakSponsor{
+  background-color:#F1F1F1;
+  height:auto; 
+  border-radius:30px;
+  margin-left:275px;
+  margin-right:275px;
+  margin-top: 160px;
+  padding-left:90px;
+  padding-bottom:20px;
+  padding-top:20px;  
 }
 
 p.about{
